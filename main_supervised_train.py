@@ -9,7 +9,7 @@ import csv
 import os
 
 from load_data import SEED_dependent_classify, SEED_independent_classify, DEAP_classify, DEAP_independent
-from MTL_MGAWS.model.SupervisedTrainModel import SupervisedTrainModel
+from model.SupervisedTrainModel import SupervisedTrainModel
 from params import build_args
 from utils import set_random_seed, cacl_acc
 
